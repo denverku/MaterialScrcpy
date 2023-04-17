@@ -20,16 +20,7 @@
    <property name="topMargin">
     <number>30</number>
    </property>
-   <item>
-    <widget class="QPushButton" name="groupControlBtn">
-     <property name="toolTip">
-      <string>group control</string>
-     </property>
-     <property name="text">
-      <string/>
-     </property>
-    </widget>
-   </item>
+   
    <item>
     <widget class="QPushButton" name="fullScreenBtn">
      <property name="toolTip">
