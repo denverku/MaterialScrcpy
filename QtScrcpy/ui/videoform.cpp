@@ -693,7 +693,8 @@ void VideoForm::keyPressEvent(QKeyEvent *event)
     if (Qt::Key_Escape == event->key() && !event->isAutoRepeat() && isFullScreen()) {
         switchFullScreen();
     }
-
+    QString posTip = QString(R"("pos": click)");
+            qInfo() << posTip.toStdString().c_str();
     emit device->keyEvent(event, m_videoWidget->frameSize(), m_videoWidget->size());
 }
 
